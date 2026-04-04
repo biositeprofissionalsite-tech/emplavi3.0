@@ -4,15 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quadra 500 Sudoeste - Lançamento Exclusivo | Residencial Ametista e Rubi</title>
-    <meta name="description" content="Conheça as novas joias da Quadra 500 no Sudoeste. Residencial Ametista (único 2 quartos) e Residencial Rubi (4 suítes com vista livre). Apartamentos de alto padrão. Cadastre-se!">
-    <meta name="keywords" content="Quadra 500 Sudoeste, apartamento Brasília, Emplavi, Residencial Rubi, Residencial Ametista, apartamento vista livre, imóveis Sudoeste">
-
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://lead-capture-56.stage-preview.emergentagent.com/">
-    <meta property="og:title" content="🏢 Lançamento Quadra 500 Sudoeste - Residencial Ametista e Rubi">
-    <meta property="og:description" content="✨ As novas joias do Sudoeste! Apartamentos de 2 a 5 suítes com vista livre permanente. O único 2 quartos e 4 suítes de até 505m². Cadastre-se agora!">
-    <meta property="og:image" content="https://customer-assets.emergentagent.com/job_lead-capture-56/artifacts/zi8b8upq_IMG_7490.jpeg">
-
+    <meta name="description" content="Conheça as novas joias da Quadra 500 no Sudoeste. Residencial Ametista e Rubi. Apartamentos de alto padrão. Fale conosco!">
+    
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
@@ -34,26 +27,15 @@
         @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(34,197,94,0.7); } 50% { box-shadow: 0 0 0 15px rgba(34,197,94,0); } }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
         
-        .form-section { padding: 5rem 2rem; background: linear-gradient(180deg, #000 0%, #1a1a1a 100%); }
-        .form-container { max-width: 700px; margin: 0 auto; background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 3rem; }
-        .form-container h3 { font-size: 2rem; text-align: center; margin-bottom: 2rem; }
-        .form-group { margin-bottom: 1.5rem; }
-        .form-group label { display: block; font-size: 1.1rem; margin-bottom: 0.5rem; }
-        .form-group input, .form-group select { width: 100%; padding: 1rem; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; color: #fff; font-size: 1rem; }
-        .form-group input:focus, .form-group select:focus { outline: none; border-color: #d97706; background: rgba(255,255,255,0.15); }
-        .error-message { color: #ef4444; font-size: 0.875rem; margin-top: 0.25rem; display: none; }
-        .error-message.show { display: block; }
-        
         .ametista-section { padding: 5rem 2rem; background: linear-gradient(180deg, #1a1a1a 0%, #000 100%); }
         .ametista-container { max-width: 1200px; margin: 0 auto; }
         .section-title { text-align: center; margin-bottom: 3rem; }
         .section-title h2 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
         .section-title .highlight { color: #a855f7; }
         .ametista-image { width: 100%; border-radius: 15px; margin-bottom: 3rem; transition: transform 0.5s; }
-        .ametista-image:hover { transform: scale(1.05); }
+        
         .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 3rem; }
-        .feature-card { background: rgba(168,85,247,0.1); border: 1px solid rgba(168,85,247,0.3); border-radius: 15px; padding: 2rem; text-align: center; transition: all 0.3s; }
-        .feature-card:hover { background: rgba(168,85,247,0.2); transform: translateY(-5px); }
+        .feature-card { background: rgba(168,85,247,0.1); border: 1px solid rgba(168,85,247,0.3); border-radius: 15px; padding: 2rem; text-align: center; }
         .feature-card h3 { font-size: 2rem; color: #a855f7; margin-bottom: 0.5rem; }
         
         .rubi-section { padding: 5rem 2rem; background: #000; }
@@ -61,34 +43,23 @@
         .rubi-title .highlight { color: #ef4444; }
         .rubi-images { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
         .rubi-image-wrapper { position: relative; border-radius: 15px; overflow: hidden; height: 320px; }
-        .rubi-image { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s; }
-        .rubi-image-wrapper:hover .rubi-image { transform: scale(1.1); }
+        .rubi-image { width: 100%; height: 100%; object-fit: cover; }
+        
         .rubi-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
         .rubi-feature { background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); border-radius: 15px; padding: 2rem; text-align: center; }
         .rubi-feature h3 { font-size: 2rem; color: #ef4444; margin-bottom: 0.5rem; }
         
         .footer { padding: 3rem 2rem; background: #000; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; }
         .footer-whatsapp { display: inline-flex; align-items: center; gap: 0.5rem; color: #22c55e; text-decoration: none; font-size: 1.1rem; margin-bottom: 1rem; }
-        .footer p { color: #9ca3af; font-size: 0.875rem; margin: 0.5rem 0; }
         
-        .toast { position: fixed; top: 20px; right: 20px; background: #22c55e; color: #fff; padding: 1rem 1.5rem; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); z-index: 10000; display: none; }
-        .toast.error { background: #ef4444; }
-        .toast.show { display: block; animation: slideIn 0.3s ease; }
-        @keyframes slideIn { from { transform: translateX(400px); } to { transform: translateX(0); } }
-        
-        .spinner { border: 3px solid rgba(255,255,255,0.3); border-top: 3px solid #fff; border-radius: 50%; width: 20px; height: 20px; animation: spin 1s linear infinite; display: inline-block; margin-left: 10px; }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-        
-        @media (max-width: 768px) { .form-container { padding: 2rem 1.5rem; } .features-grid, .rubi-features, .rubi-images { grid-template-columns: 1fr; } }
-        
+        @media (max-width: 768px) { .features-grid, .rubi-features, .rubi-images { grid-template-columns: 1fr; } }
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-track { background: #000; }
         ::-webkit-scrollbar-thumb { background: #d97706; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <a href="https://wa.me/5561985309658?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20lan%C3%A7amento%20Quadra%20500%20Sudoeste." class="whatsapp-float" target="_blank" aria-label="WhatsApp">💬</a>
-    <div id="toast" class="toast"></div>
+    <a href="https://wa.me/5561985309658?text=Olá! Gostaria de saber mais informações sobre os lançamentos da Quadra 500." class="whatsapp-float" target="_blank">💬</a>
 
     <section class="hero">
         <div class="hero-content">
@@ -96,43 +67,8 @@
             <h1>AS NOVAS JOIAS</h1>
             <h2>NA QUADRA 500</h2>
             <h3>DO SUDOESTE</h3>
-            <p>Cadastre-se para receber informações exclusivas sobre as novidades da Quadra 500 Sudoeste.</p>
-            <button onclick="scrollToForm()" class="btn">Cadastre-se agora</button>
-        </div>
-    </section>
-
-    <section class="form-section" id="form-section">
-        <div class="form-container">
-            <h3>Cadastre-se para receber informações exclusivas</h3>
-            <form id="leadForm" onsubmit="handleSubmit(event)">
-                <div class="form-group">
-                    <label for="nome">Nome*</label>
-                    <input type="text" id="nome" placeholder="Seu nome completo" required>
-                    <span class="error-message" id="nome-error"></span>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email*</label>
-                    <input type="email" id="email" placeholder="seu@email.com" required>
-                    <span class="error-message" id="email-error"></span>
-                </div>
-                <div class="form-group">
-                    <label for="celular">Celular*</label>
-                    <input type="tel" id="celular" placeholder="(00) 00000-0000" required>
-                    <span class="error-message" id="celular-error"></span>
-                </div>
-                <div class="form-group">
-                    <label for="quartos">Número de quartos*</label>
-                    <select id="quartos" required>
-                        <option value="">Selecione</option>
-                        <option value="2">2 quartos</option>
-                        <option value="3">3 quartos</option>
-                        <option value="4">4 quartos</option>
-                        <option value="5">5 quartos</option>
-                    </select>
-                    <span class="error-message" id="quartos-error"></span>
-                </div>
-                <button type="submit" class="btn" id="submitBtn">Enviar</button>
-            </form>
+            <p>Clique abaixo e fale diretamente com um consultor para receber o catálogo completo.</p>
+            <a href="https://wa.me/5561985309658?text=Olá! Vim pelo site e quero informações sobre a Quadra 500." class="btn">Falar com Consultor</a>
         </div>
     </section>
 
@@ -144,11 +80,13 @@
             </div>
             <img src="https://customer-assets.emergentagent.com/job_lead-capture-56/artifacts/9w024jfm_IMG_7491.jpeg" alt="Ametista" class="ametista-image">
             <div class="features-grid">
-                <div class="feature-card"><h3>🏠</h3><h3>2 Quartos</h3><p>Único</p></div>
-                <div class="feature-card"><h3>📍</h3><h3>Quadra 500</h3><p>Privilegiada</p></div>
-                <div class="feature-card"><h3>⭐</h3><h3>Exclusivo</h3><p>Sudoeste</p></div>
+                <div class="feature-card"><h3>🏠</h3><h3>2 Quartos</h3><p>Unidade Exclusiva</p></div>
+                <div class="feature-card"><h3>📍</h3><h3>Localização</h3><p>Quadra 500 Sudoeste</p></div>
+                <div class="feature-card"><h3>⭐</h3><h3>Alto Padrão</h3><p>Acabamento Premium</p></div>
             </div>
-            <div style="text-align:center;margin-top:3rem"><button onclick="scrollToForm()" class="btn" style="background:#a855f7">Quero conhecer o Ametista</button></div>
+            <div style="text-align:center;margin-top:3rem">
+                <a href="https://wa.me/5561985309658?text=Olá! Gostaria de saber mais sobre o Residencial Ametista (2 quartos)." class="btn" style="background:#a855f7">Consultar Valor do Ametista</a>
+            </div>
         </div>
     </section>
 
@@ -165,10 +103,12 @@
             <div class="rubi-features">
                 <div class="rubi-feature"><h3>4 Suítes</h3><p>Até 257m²</p></div>
                 <div class="rubi-feature"><h3>Vista Livre</h3><p>Permanente</p></div>
-                <div class="rubi-feature"><h3>4 Vagas</h3><p>+ Bicicletário</p></div>
+                <div class="rubi-feature"><h3>4 Vagas</h3><p>Privativas</p></div>
                 <div class="rubi-feature"><h3>Cobertura</h3><p>Até 505m²</p></div>
             </div>
-            <div style="text-align:center"><button onclick="scrollToForm()" class="btn" style="background:#ef4444">Quero conhecer o Rubi</button></div>
+            <div style="text-align:center">
+                <a href="https://wa.me/5561985309658?text=Olá! Gostaria de saber mais sobre o Residencial Rubi (4 suítes)." class="btn" style="background:#ef4444">Ver Plantas do Rubi</a>
+            </div>
         </div>
     </section>
 
@@ -184,7 +124,7 @@
                 <div class="rubi-image-wrapper"><img src="https://i.postimg.cc/RZgmz7d5/IMG_20260302_WA0021.jpg" class="rubi-image"></div>
             </div>
             <div style="text-align:center">
-                <a href="https://wa.me/5561985309658" class="btn">Quero conhecer o Diamante</a>
+                <a href="https://wa.me/5561985309658?text=Olá! Gostaria de saber mais sobre o Residencial Diamante." class="btn">Quero conhecer o Diamante</a>
             </div>
         </div>
     </section>
@@ -199,7 +139,7 @@
                 <div class="rubi-image-wrapper"><img src="https://i.postimg.cc/xdq2jXpr/IMG_20260302_WA0032.jpg" class="rubi-image"></div>
             </div>
             <div style="text-align:center">
-                <a href="https://wa.me/5561985309658" class="btn">Quero conhecer o Esmeralda</a>
+                <a href="https://wa.me/5561985309658?text=Olá! Gostaria de saber mais sobre o Residencial Esmeralda." class="btn">Quero conhecer o Esmeralda</a>
             </div>
         </div>
     </section>
@@ -217,111 +157,15 @@
         </div>
     </section>
 
-    <div style="text-align:center;padding:40px;background:#000;">
-        <a href="https://wa.me/5561985309658" class="btn">💬 Falar no WhatsApp agora</a>
+    <div style="text-align:center;padding:60px;background:#000;">
+        <h2 style="margin-bottom: 20px;">Pronto para morar no melhor do Sudoeste?</h2>
+        <a href="https://wa.me/5561985309658?text=Olá! Quero falar com um corretor agora." class="btn">💬 Falar no WhatsApp agora</a>
     </div>
 
     <footer class="footer">
         <a href="https://wa.me/5561985309658" class="footer-whatsapp" target="_blank">💬 +55 61 98530-9658</a>
-        <p>© 2025 Quadra 500 Sudoeste</p>
+        <p>© 2026 Quadra 500 Sudoeste</p>
     </footer>
 
-    <script>
-        const API_URL = 'https://lead-capture-56.stage-preview.emergentagent.com/api';
-        const WHATSAPP_NUMBER = '5561985309658';
-
-        function scrollToForm() { 
-            document.getElementById('form-section').scrollIntoView({behavior:'smooth'}); 
-        }
-
-        function showToast(msg, err=false) { 
-            const t = document.getElementById('toast'); 
-            t.textContent = msg; 
-            t.className = 'toast show' + (err ? ' error' : ''); 
-            setTimeout(() => t.className = 'toast', 4000); 
-        }
-
-        function validateEmail(e) { 
-            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e); 
-        }
-
-        function validatePhone(p) { 
-            return p.replace(/\D/g, '').length >= 10; 
-        }
-
-        // Máscara de Telefone formatada
-        document.getElementById('celular').addEventListener('input', function(e) {
-            let v = e.target.value.replace(/\D/g, '');
-            if (v.length > 11) v = v.slice(0, 11);
-            if (v.length > 10) {
-                v = v.replace(/^(\d{2})(\d{5})(\d{4}).*/, '($1) $2-$3');
-            } else if (v.length > 5) {
-                v = v.replace(/^(\d{2})(\d{4})(\d{0,4}).*/, '($1) $2-$3');
-            } else if (v.length > 2) {
-                v = v.replace(/^(\d{2})(\d{0,5})/, '($1) $2');
-            } else {
-                v = v.replace(/^(\d*)/, '($1');
-            }
-            e.target.value = v;
-        });
-
-        function showError(f, m) {
-            const errEl = document.getElementById(f + '-error');
-            errEl.textContent = m;
-            errEl.classList.add('show');
-        }
-
-        function hideErrors() {
-            document.querySelectorAll('.error-message').forEach(el => el.classList.remove('show'));
-        }
-
-        async function handleSubmit(e) {
-            e.preventDefault();
-            hideErrors();
-
-            const d = {
-                nome: document.getElementById('nome').value.trim(),
-                email: document.getElementById('email').value.trim(),
-                celular: document.getElementById('celular').value.replace(/\D/g, ''),
-                quartos: document.getElementById('quartos').value
-            };
-
-            let hasError = false;
-
-            if (d.nome.length < 3) { showError('nome', 'Digite seu nome completo'); hasError = true; }
-            if (!validateEmail(d.email)) { showError('email', 'E-mail inválido'); hasError = true; }
-            if (!validatePhone(d.celular)) { showError('celular', 'Telefone inválido'); hasError = true; }
-            if (!d.quartos) { showError('quartos', 'Selecione uma opção'); hasError = true; }
-
-            if (hasError) return;
-
-            const btn = document.getElementById('submitBtn');
-            btn.disabled = true;
-            btn.innerHTML = 'Processando... <span class="spinner"></span>';
-
-            // Formatação da mensagem para o WhatsApp
-            const msgWhatsapp = `*Novo Lead - Quadra 500*%0A%0A` +
-                                `*Nome:* ${d.nome}%0A` +
-                                `*E-mail:* ${d.email}%0A` +
-                                `*Telefone:* ${d.celular}%0A` +
-                                `*Interesse:* Apartamento de ${d.quartos} quartos`;
-
-            try {
-                // Tenta salvar na API primeiro
-                const r = await fetch(`${API_URL}/leads`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(d)
-                });
-
-                showToast('Cadastro realizado! Abrindo WhatsApp...');
-                
-                // Redireciona para o WhatsApp após um pequeno delay para o usuário ver o sucesso
-                setTimeout(() => {
-                    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msgWhatsapp}`, '_blank');
-                    document.getElementById('leadForm').reset();
-                }, 1500);
-
-            } catch (err) {
-                // Se o servidor falhar, o WhatsApp abre do mesmo jeito para não perder o lead
-                console.warn('Erro na API, mas redirecio
+</body>
+</html>
